@@ -54,10 +54,7 @@ bucket_name = "img-r2"    # ⚠️ 改成你的R2桶名字
 [[kv_namespaces]]
 binding = "img_url"
 id = "1542630f894a4fa49d352c30180e95fa"          # ⚠️ 改成你的KV ID
-
-
-
-
+ 
 
 
 
