@@ -42,3 +42,22 @@ binding = "IMAGES"
 # [[kv_namespaces]]
 # binding = "img_url"
 # id = ""
+ 
+# 绑定 R2 存储桶
+
+[[r2_buckets]]
+binding = "img_r2"
+bucket_name = "img-r2"    # ⚠️ 改成你的R2桶名字
+
+# 绑定 KV 数据库
+
+[[kv_namespaces]]
+binding = "img_url"
+id = "1542630f894a4fa49d352c30180e95fa"          # ⚠️ 改成你的KV ID
+
+
+
+
+
+
+
